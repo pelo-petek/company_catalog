@@ -1,0 +1,112 @@
+* {
+    font-size: xx-large;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh;
+    background-color: rgb(39, 95, 76);
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li {
+    padding-right: 10%;
+}
+
+.card {
+    background-color: rgb(246, 253, 202);
+    padding: 4vh;
+    margin: 3vh;
+    text-align: center;
+}
+
+.line {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap; /* Added for responsiveness */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 5vh;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    *{
+        font-size:small;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu ul {
+        flex-direction:row;
+    }
+
+    .menu ul li {
+        padding-right: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%; /* Adjust the width as needed for smaller screens */
+    }
+
+    .footer ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
