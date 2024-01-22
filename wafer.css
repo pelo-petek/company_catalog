@@ -75,15 +75,20 @@ a:visited {
     *{
         font-size:small;
     }
+    img{
+        width: 200px;
+        height: 200px;
+    }
     .menu{
         width: 100%;
+    }
+    .menu h1{
+        margin-right: 4%;
     }
     .menu ul {
         flex-direction:row;
     }
-    .menu h1 {
-        margin-right: 4%;
-    }
+
     .menu ul li {
         padding-right: 2vh;
         margin-bottom: 2vh;
@@ -100,10 +105,5 @@ a:visited {
         width: 120px;
         height: 120px;
         margin: 0;
-    }
-    .types ul{
-        color: black;
-        display: flex;
-        background-color: aqua;
     }
 }

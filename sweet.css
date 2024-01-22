@@ -71,9 +71,14 @@ a:visited {
     background-color: transparent;
     text-decoration: underline;
   }
+
 @media only screen and (max-width: 768px) {
     *{
         font-size:small;
+    }
+    img{
+        width: 200px;
+        height: 200px;
     }
     .menu{
         width: 100%;
@@ -81,7 +86,7 @@ a:visited {
     .menu ul {
         flex-direction:row;
     }
-    .menu h1 {
+    .menu h1{
         margin-right: 4%;
     }
     .menu ul li {
@@ -100,10 +105,5 @@ a:visited {
         width: 120px;
         height: 120px;
         margin: 0;
-    }
-    .types ul{
-        color: black;
-        display: flex;
-        background-color: aqua;
     }
 }
