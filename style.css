@@ -5,7 +5,10 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+.cards img{
+    width: 300px;
+    height: 200px;
+}
 .menu {
     display: flex;
     justify-content: space-around;
@@ -24,10 +27,14 @@
 }
 
 .card {
-    background-color: rgb(246, 253, 202);
-    padding: 4vh;
+    background-color: rgba(223, 223, 223, 0.171);
+    padding: 3vh;
     margin: 3vh;
     text-align: center;
+}
+.cards h1{
+    font-size:x-large;
+    color:rgba(81, 129, 131, 0.925);
 }
 
 .line {
@@ -80,14 +87,21 @@ a:visited {
         font-size:small;
     }
     img{
-        width: 200px;
-        height: 200px;
+        margin: 0%;
+        padding: 0;
     }
     .menu{
         width: 100%;
     }
-    .menu ul {
+    .menu a {
         flex-direction:row;
+    }
+    .cards div{
+        display: flex;
+    }
+    .cards img{
+        width: 100px;
+        height: 60px;
     }
 
     .menu ul li {
@@ -108,5 +122,5 @@ a:visited {
         flex-direction: column;
         text-align: center;
     }
-
+  
 }

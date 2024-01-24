@@ -13,6 +13,16 @@
     color: white;
 }
 
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 500px;
+    height:500px;
+}
+
 .menu ul {
     display: flex;
     list-style-type: none;
@@ -78,11 +88,22 @@ a:visited {
     .menu{
         width: 100%;
     }
+    .menu a {
+        flex-direction:row;
+    }
     .menu ul {
         flex-direction:row;
     }
     .menu h1 {
         margin-right: 4%;
+    }
+    .menu ul li {
+        padding-right: 2vh;
+        margin-bottom: 2vh;
+    }
+      .menu ul li {
+        padding-right: 2vh;
+        margin-bottom: 2vh;
     }
     .menu ul li {
         padding-right: 2vh;
@@ -106,4 +127,5 @@ a:visited {
         display: flex;
         background-color: aqua;
     }
+ 
 }
